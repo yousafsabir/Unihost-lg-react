@@ -1,0 +1,35 @@
+.pg48 {
+    padding-top: 78px;
+    padding-bottom: 144px;
+}
+.pg48 main {
+    background-color: #f9f9f9;
+    border: 1px solid #d9d9d9;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    /* layout */
+    display: grid;
+    grid-template-columns: 2fr auto 4fr;
+}
+.middle-line {
+    width: 1px;
+    height: 90%;
+    background-color: #d9d9d9;
+}
+.pg48-content {
+    padding: 50px;
+}
+.pg48-content > h2 {
+    font-size: 30px;
+    line-height: 2rem;
+    font-weight: 600;
+    margin-bottom: 38px;
+}
+.pg48-content > h3 {
+    line-height: 2rem;
+    font-weight: 600;
+    margin-bottom: 28px;
+}
